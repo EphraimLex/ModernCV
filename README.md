@@ -92,6 +92,7 @@ No home address or personal phone number is included.
 
 ## Deployment
 
-GitHub repository: To be added.
+The website is published using GitHub Pages.
 
-Live website: To be added.
+- GitHub repository: https://github.com/EphraimLex/ModernCV
+- Live website: https://ephraimlex.github.io/ModernCV/
