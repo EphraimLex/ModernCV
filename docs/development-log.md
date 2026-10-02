@@ -94,16 +94,24 @@ Testing consisted of manual code review and browser checks.
 Automated validation was not performed and is not planned
 for this version.
 
+### Repository and publication
+- Created the public ModernCV repository through VS Code.
+- Uploaded the website files and the docs folder.
+- Configured GitHub Pages to deploy from the main branch
+  and the repository root.
+- Published the website online.
+- Checked the live website’s styling and navigation.
+- Added the repository and live website links to README.md.
+
+### Project links
+- GitHub repository: https://github.com/EphraimLex/ModernCV
+- Live website: https://ephraimlex.github.io/ModernCV/
+
 ### Current status
-The website implementation and project documentation are complete.
-The project is ready to be uploaded to a public GitHub repository
-and published online.
+The website is implemented, tested manually, and published.
+The public repository includes the code and project documentation.
 
-## Remaining Work – Publication
+## Remaining Work
 
-- Create a public GitHub repository.
-- Upload the project files.
-- Publish the website online.
-- Add the repository and live website links to `README.md`.
-- Verify that the published page and its navigation work.
+- Commit and push the final documentation updates.
 - Submit the GitHub repository URL and live website URL.
