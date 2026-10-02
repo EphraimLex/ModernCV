@@ -111,7 +111,3 @@ for this version.
 The website is implemented, tested manually, and published.
 The public repository includes the code and project documentation.
 
-## Remaining Work
-
-- Commit and push the final documentation updates.
-- Submit the GitHub repository URL and live website URL.
