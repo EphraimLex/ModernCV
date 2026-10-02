@@ -1,0 +1,180 @@
+
+/* Include padding and borders within an element's specified size. */
+* {
+    box-sizing: border-box;
+}
+
+/* Set the page's default typography and background. */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #222222;
+    background-color: #f4f6f8;
+}
+
+/* Centre the page content and keep space along both edges. */
+header,
+main,
+footer {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* Add breathing room above the navigation. */
+header {
+    padding-top: 24px;
+}
+
+/* Arrange navigation items in a row, allowing them to wrap. */
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: #245a46;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Give visual feedback when the pointer is over a link. */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Make the name prominent and separate it from the navigation. */
+header h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+/* Keep the professional subtitle close to the name. */
+.subtitle {
+    font-size: 20px;
+    color: #245a46;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+/* Give each CV section a distinct background and internal spacing. */
+main section {
+    background-color: #e9eaee;
+    padding: 24px;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+
+/* Use consistent section headings; section padding provides space above. */
+main h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 26px;
+    color: #245a46;
+}
+
+/* Separate consecutive entries without adding space above the first. */
+article + article {
+    margin-top: 24px;
+}
+
+/* Display the three skill categories in equal columns. */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+/* Keep each education title close to its supporting details. */
+#education h3 {
+    margin-bottom: 4px;
+}
+
+/* Group the university, dates, and specialization closely together. */
+#education article p {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+/* Keep each project title close to its description. */
+#projects h3 {
+    margin-bottom: 4px;
+}
+
+/* Keep the description and technologies visually grouped. */
+#projects article p {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+/* Keep the dates in normal weight beside the experience heading.*/ 
+.experience-dates {
+    font-weight: normal;
+}
+
+/* Display contact details in normal text instead of default italics. */
+#contact address {
+    font-style: normal;
+}
+
+/* Keep the contact details closely grouped. */
+#contact address p {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+/* Match these links to the page's green accent colour. */
+#contact a,
+footer a {
+    color: #245a46;
+    text-underline-offset: 3px;
+    overflow-wrap: anywhere;
+}
+
+/* Leave space around the footer and centre its content. */
+footer {
+    padding-top: 24px;
+    padding-bottom: 32px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+/* Display projects in two equal columns. */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+/* Grid gap provides spacing, so remove the earlier article margin. */
+.projects-grid > article {
+    margin-top: 0;
+}
+
+/* Align project headings at the top of their columns. */
+.projects-grid h3 {
+    margin-top: 0;
+}
+
+/* Stack skills and projects in one column on smaller screens. */
+@media (max-width: 768px) {
+    .skills-grid,
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
